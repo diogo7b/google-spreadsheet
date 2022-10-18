@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/styles/style.css">
+    <title> Dados </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="headbar">
+        </div>
+        <div class="content-page">
+            <form name="myform" id="my-form">
+                <input type="search" id="selectorPage" list="paginas" name="pagina" placeholder="Página">
+                <input type="number" name="cod" placeholder="Código">
+                <input type="text" name="nome" placeholder="Nome">
+                <input type="text" name="login" placeholder="Login">
+                <input type="text" name="cidade" placeholder="Cidade">
+                <input type="text" name="bairro" placeholder="Bairro">
+                <input type="text" name="router" placeholder="Modelo do Roteador">
+                <input type="submit" class="Enviar">
+            </form>
+            <datalist id="paginas">
+                <option value="sem_acesso">
+                <option value="sem_suporte">
+                <option value="desatualizado">
+                <option value="configurado">
+            </datalist>
+
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
